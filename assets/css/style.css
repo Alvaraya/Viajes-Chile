@@ -1,0 +1,77 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+  /* NAV */
+  .navbar {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.navbar-white {
+    background-color: white !important;
+    color: black !important;
+}
+
+.navbar-blue {
+    background-color: rgb(13, 202, 240) !important;
+    color: white !important;
+}
+
+.nav-link-white {
+  color: white !important;
+}
+
+/* ABOUTUS */
+#start {
+  background-color: black;
+}
+
+/* ABOUTUS */
+#aboutus {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* FEATURES */
+#featured {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-tittle,
+.card-text {
+  color: white;
+}
+
+/* FORM */
+#contact {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* FORM MESSAGE */
+.form-control::placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* FOOTER */
+footer {
+  background: rgb(13, 202, 240);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* FOOTER ICON */
+.fa-brands {
+  font-size: 30px;
+  margin-right: 15px;
+}
